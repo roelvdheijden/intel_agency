@@ -1,5 +1,9 @@
-require "intel_agency/version"
+require 'intel_agency/version'
 
-module IntelAgency
+module IA
+  # Your code goes here...
+end
+
+class IntelAgency
   # Your code goes here...
 end

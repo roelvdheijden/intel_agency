@@ -1,9 +1,78 @@
+## Environment normalization:
 /.bundle/
-/.yardoc
+/vendor/bundle
+/lib/bundler/man/
+
+# ignore these for a gem or library to run it in multiple environments; otherwise, check them in:
 /Gemfile.lock
-/_yardoc/
-/coverage/
-/doc/
-/pkg/
-/spec/reports/
+/.ruby-version
+/.ruby-gemset
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+/.rvmrc
+
+# Environment and config files that may contain sensitive data
+/.env
+/.powenv
+/config/*.yml
+
+# various artifacts
+/*.rbc
+/*.sassc
+/cache/
+/log/
 /tmp/
+/gems
+/pkg/
+
+## Code metrics and Spec reports
+/coverage/
+/spec/reports/
+
+## Documentation cache and generated files:
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
+
+
+## Operating System Files: Windows
+
+# Folder config file and shortcuts
+Desktop.ini
+*.lnk
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+
+## Operating System Files: OSX
+
+# Mac finder artifacts
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk

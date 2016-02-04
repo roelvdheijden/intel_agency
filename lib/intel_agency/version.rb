@@ -1,3 +1,4 @@
-module IntelAgency
-  VERSION = "0.1.0"
+module IA
+  APPLICATION = 'IntelAgency'
+  VERSION = '0.0.2'
 end

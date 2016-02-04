@@ -1,0 +1,38 @@
+---
+StringLiterals:
+  EnforcedStyle: single_quotes
+  Enabled: true
+
+DotPosition:
+  Description: 'Checks the position of the dot in multi-line method calls.'
+  EnforcedStyle: leading
+  Enabled: true
+
+Documentation:
+  Description: 'Document classes and non-namespace modules.'
+  Enabled: false
+
+Encoding:
+  EnforcedStyle: when_needed
+
+ClassAndModuleChildren:
+  Enabled: true
+
+TrivialAccessors:
+  Enabled: true
+
+LineLength:
+  Description: 'Try to limit lines to 80 characters (100 max).'
+  Max: 120
+
+MethodLength:
+  Description: 'Try avoiding methods longer than 10 lines of code.'
+  Max: 12
+
+ClassLength:
+  Description: 'Try avoiding classes longer than 80 lines of code.'
+  CountComments: false  # count full line comments?
+  Max: 120
+
+MutableConstant:
+  Enabled: false
