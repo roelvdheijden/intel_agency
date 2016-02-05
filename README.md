@@ -1,4 +1,6 @@
-# IntelAgency
+# Intel Agency
+
+Intel Agency to Extract, Transform & Load data from and into sources.
 
 ## Code Status
 
