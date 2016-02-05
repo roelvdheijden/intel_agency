@@ -4,11 +4,6 @@ describe IntelAgency do
   context 'application constants' do
     let(:ia) { IntelAgency }
 
-    it 'has an application name' do
-      expect(ia::APPLICATION).not_to be nil
-      expect(ia::APPLICATION).to eq 'IntelAgency'
-    end
-
     it 'has a version number' do
       expect(ia::VERSION).not_to be nil
     end
