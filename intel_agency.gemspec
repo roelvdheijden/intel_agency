@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'intel_agency/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = IA::APPLICATION
-  spec.version       = IA::VERSION
+  spec.name          = 'IntelAgency'
+  spec.version       = IntelAgency::VERSION
   spec.license       = 'MIT'
 
-  spec.description   = 'Intel Agency to Extract, Transform & Load data from and into sources.'
-  spec.summary       = spec.description
+  spec.description   = 'Intel Agency : Extract, Transform & Load'
+  spec.summary       = 'Intel Agency application to Extract, Transform & Load data from and into sources.'
   spec.homepage      = 'https://github.com/roelvdheijden/intel_agency'
 
   spec.authors       = ['roelvdheijden']

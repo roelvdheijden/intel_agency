@@ -1,13 +1,20 @@
 # Intel Agency
 
-Intel Agency to Extract, Transform & Load data from and into sources.
+Extract, Transform & Load
+
+An application to Extract, Transform & Load data from and into sources.
+
+The Intel Agency provides a service with spies that handle ETL-assignments on a schedule.
+The assignments hold the ETL processes and link up with resources through connectors.
+The spies execute the assignments on a set schedule when the service running.
+Multiple spies will be assigned if possible (as far as multi-threading is possible within MRI)
 
 ## Code Status
 
-Production: [![Build Status](https://travis-ci.org/roelvdheijden/intel_agency.svg?branch=master)](https://travis-ci.org/roelvdheijden/intel_agency)
+Production: Version - [![Build Status](https://travis-ci.org/roelvdheijden/intel_agency.svg?branch=master)](https://travis-ci.org/roelvdheijden/intel_agency)
 [![Coverage Status](https://coveralls.io/repos/roelvdheijden/intel_agency/badge.svg?branch=master&service=github)](https://coveralls.io/github/roelvdheijden/intel_agency?branch=master)
 
-Development: [![Build Status](https://travis-ci.org/roelvdheijden/intel_agency.svg?branch=develop)](https://travis-ci.org/roelvdheijden/intel_agency)
+Development: Version 0.0.3 [![Build Status](https://travis-ci.org/roelvdheijden/intel_agency.svg?branch=develop)](https://travis-ci.org/roelvdheijden/intel_agency)
 [![Coverage Status](https://coveralls.io/repos/roelvdheijden/intel_agency/badge.svg?branch=develop&service=github)](https://coveralls.io/github/roelvdheijden/intel_agency?branch=develop)
 
 ## Installation
